@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bobbycrooz/ReactApp.git/static/css/main.8c89f905.chunk.css",
-    "main.js": "/bobbycrooz/ReactApp.git/static/js/main.984c3441.chunk.js",
-    "main.js.map": "/bobbycrooz/ReactApp.git/static/js/main.984c3441.chunk.js.map",
-    "runtime-main.js": "/bobbycrooz/ReactApp.git/static/js/runtime-main.e8c8ba9f.js",
-    "runtime-main.js.map": "/bobbycrooz/ReactApp.git/static/js/runtime-main.e8c8ba9f.js.map",
-    "static/js/2.8e5b87fe.chunk.js": "/bobbycrooz/ReactApp.git/static/js/2.8e5b87fe.chunk.js",
-    "static/js/2.8e5b87fe.chunk.js.map": "/bobbycrooz/ReactApp.git/static/js/2.8e5b87fe.chunk.js.map",
-    "index.html": "/bobbycrooz/ReactApp.git/index.html",
-    "static/css/main.8c89f905.chunk.css.map": "/bobbycrooz/ReactApp.git/static/css/main.8c89f905.chunk.css.map",
-    "static/js/2.8e5b87fe.chunk.js.LICENSE.txt": "/bobbycrooz/ReactApp.git/static/js/2.8e5b87fe.chunk.js.LICENSE.txt"
+    "main.css": "/ReactApp/static/css/main.8c89f905.chunk.css",
+    "main.js": "/ReactApp/static/js/main.a04f843e.chunk.js",
+    "main.js.map": "/ReactApp/static/js/main.a04f843e.chunk.js.map",
+    "runtime-main.js": "/ReactApp/static/js/runtime-main.d0905e87.js",
+    "runtime-main.js.map": "/ReactApp/static/js/runtime-main.d0905e87.js.map",
+    "static/js/2.8e5b87fe.chunk.js": "/ReactApp/static/js/2.8e5b87fe.chunk.js",
+    "static/js/2.8e5b87fe.chunk.js.map": "/ReactApp/static/js/2.8e5b87fe.chunk.js.map",
+    "index.html": "/ReactApp/index.html",
+    "static/css/main.8c89f905.chunk.css.map": "/ReactApp/static/css/main.8c89f905.chunk.css.map",
+    "static/js/2.8e5b87fe.chunk.js.LICENSE.txt": "/ReactApp/static/js/2.8e5b87fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8c8ba9f.js",
+    "static/js/runtime-main.d0905e87.js",
     "static/js/2.8e5b87fe.chunk.js",
     "static/css/main.8c89f905.chunk.css",
-    "static/js/main.984c3441.chunk.js"
+    "static/js/main.a04f843e.chunk.js"
   ]
 }
