@@ -30,7 +30,7 @@ const App = () => {
         return null;
         }}/>
         <Route path='/linkedin' component={() => { 
-        window.location.href = 'www.linkedin.com/in/idris-love-b8567b199'; 
+        window.location.href = 'https://www.linkedin.com/in/idris-love-b8567b199'; 
         return null;
         }}/>
      </div> 
