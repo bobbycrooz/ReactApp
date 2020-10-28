@@ -40,9 +40,9 @@
 nav {
   display: flex;
   justify-content: space-around;
-  height: 10vh;
-  background-color: #282c34;
-  color: antiquewhite;
+  height: 15vh;
+  background-color: rgba(56, 56, 4, 0.904);
+  
 }
 
 ul {
@@ -51,10 +51,10 @@ ul {
   list-style: none;
 }
  li {
-   margin-left: 20px;
+   margin-left: 20px; 
  }
  a {
-   color: rgb(255, 255, 255);
+   color: rgb(43, 1, 43);
    text-decoration: none;
  }
 
@@ -64,12 +64,28 @@ ul {
    text-align: center;
    color: rgb(43, 1, 43);
    width: 50%;
-   height: 2.6rem;
+   /* height: 2.6rem; */
    border: 0.3rem solid rgb(43, 1, 43);
    border-radius: 1.7rem;
-   margin:3.128rem auto;
+   margin: auto;
 
  }
+ .btn{
+  padding: 0.8rem;
+  background-color: rgba(228, 228, 15, 0.904);
+  text-align: center;
+  color: rgb(43, 1, 43);
+  /* width: 50%; */
+  /* height: 2.6rem; */
+  border: 0.3rem solid rgb(43, 1, 43);
+  border-radius: 1.7rem;
+  
+
+ }
+
+.product_mt{
+  margin-top: 3rem;
+}
 .logo {
   border: 0.3rem solid rgb(43, 1, 43);
    border-radius: 1.7rem;

@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./pages/About";
+import Home from "./pages/Home"
 import Shop from "./pages/Shop";
 import Nav from "./component/Nav";
 import Product from "./pages/proDetails";
@@ -16,6 +17,7 @@ const App = () => {
     <Router basename={process.env.PUBLIC_URL}>
       <div className='App'>
        <Nav />
+       <Route path="/" component={Home} exact />
        <Route path="/about" component={About} exact/>
        <Route path="/shop" component={Shop} exact />
        <Route path="/shop/:id" component={Product} exact />

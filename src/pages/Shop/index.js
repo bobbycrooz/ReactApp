@@ -31,18 +31,19 @@ const Shop = (props) => {
       
       <h3>
         <code>
-          list of shop will go here and the pages
-          too
+          Please wait while we fetch the list for you
           </code>
       </h3>
     <div>
     {items.map(item => (
         <h1 
-          className="product"
+          className="product product_mt"
           key={item.id}
         >
-          <Link to={`/shop/${ item.id }`}>{ item.name }</Link>
+          <Link className='btn' to={`/shop/${ item.id }`}>{ item.name }</Link>         
+          <h6><code>you can click this item to view it</code></h6> 
         </h1>
+        
       ))}
     </div>
     </div>
