@@ -14,7 +14,6 @@ const App = () => {
 
   return (
 
-
     <Router basename={process.env.PUBLIC_URL}>
       <div className='App'>
        <Nav />
@@ -25,7 +24,15 @@ const App = () => {
        <Route path='/github' component={() => { 
      window.location.href = 'https://github.com/bobbycrooz'; 
      return null;
-}}/>
+        }}/>
+        <Route path='/twitter' component={() => { 
+        window.location.href = 'https://twitter.com/idrisloove'; 
+        return null;
+        }}/>
+        <Route path='/linkedin' component={() => { 
+        window.location.href = 'www.linkedin.com/in/idris-love-b8567b199'; 
+        return null;
+        }}/>
      </div> 
     </Router>
     

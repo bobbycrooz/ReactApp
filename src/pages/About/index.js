@@ -15,8 +15,8 @@ const About = () => {
              <h5>you can contact developer on:</h5>
              <div className="contact">
                <Link to="github" ><FontAwesomeIcon icon={faGithub} size="3x" className="c_icon" /></Link>
-               <Link to="google.com" ><FontAwesomeIcon icon={faLinkedin} size="3x" className="c_icon" /></Link>
-               <Link to="google.com" ><FontAwesomeIcon icon={faTwitter} size="3x" className="c_icon" /></Link>
+               <Link to="linkedin" ><FontAwesomeIcon icon={faLinkedin} size="3x" className="c_icon" /></Link>
+               <Link to="twitter" ><FontAwesomeIcon icon={faTwitter} size="3x" className="c_icon" /></Link>
 
              </div>
            </h2>
