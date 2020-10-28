@@ -5,6 +5,7 @@ import Shop from "./pages/Shop";
 import Nav from "./component/Nav";
 import Product from "./pages/proDetails";
 import "./App.css";
+
 import {BrowserRouter as Router, Route} from "react-router-dom";
 
 
@@ -21,6 +22,10 @@ const App = () => {
        <Route path="/about" component={About} exact/>
        <Route path="/shop" component={Shop} exact />
        <Route path="/shop/:id" component={Product} exact />
+       <Route path='/github' component={() => { 
+     window.location.href = 'https://github.com/bobbycrooz'; 
+     return null;
+}}/>
      </div> 
     </Router>
     

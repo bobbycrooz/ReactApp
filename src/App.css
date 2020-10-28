@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -41,7 +44,7 @@ nav {
   display: flex;
   justify-content: space-around;
   height: 15vh;
-  background-color: rgba(56, 56, 4, 0.904);
+  background-color: rgba(42, 43, 42, 0.904);
   
 }
 
@@ -71,6 +74,7 @@ ul {
 
  }
  .btn{
+  font-family: 'Syne Mono', monospace;
   padding: 0.8rem;
   background-color: rgba(228, 228, 15, 0.904);
   text-align: center;
@@ -95,4 +99,18 @@ ul {
 
  .Shop a {
    color: rgb(43, 1, 43);
+ }
+
+ .green{
+   color: green;
+ }
+
+ .contact{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .title{
+   font-size: 3rem;
+  font-family: 'Syne Mono', monospace;
  }

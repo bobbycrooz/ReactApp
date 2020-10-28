@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 const Home = () => {
     return (
         <div className="shop">
@@ -14,7 +15,8 @@ const Home = () => {
             </h4>
 
             <div className="product">
-                <h3>click on <Link to='/shop'>Shopping</Link> at the top to Browse around </h3>
+                
+                <h3>click on <Link to='/shop'>Shop</Link> at the top to Browse around </h3>
             </div>
         </div>
     );
