@@ -11,17 +11,17 @@ const App = () => {
 
 
   return (
-    <Router>
-      <div
-      className='App'
-     >
+
+
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className='App'>
        <Nav />
-       <Route path="/about" component={About}  exact/>
+       <Route path="/about" component={About} exact/>
        <Route path="/shop" component={Shop} exact />
        <Route path="/shop/:id" component={Product} exact />
      </div> 
     </Router>
-    // div.mlynchlac.panoyalisa
+    
     
   )
 }
